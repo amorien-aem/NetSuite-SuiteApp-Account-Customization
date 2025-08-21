@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee scriptid="custemp_new_user">
+    <customform>AEM Buyer, LLC - Employee</customform>
+    <entityid>Adam Morien</entityid>
+    <firstname>Adam</firstname>
+    <lastname>Morien</lastname>
+    <email>adam.morien@aeminc.com</email>
+    <giveaccess>T</giveaccess>
+    <password>Ch@ngeme123</password>
+    <password2>Ch@ngeme123</password2>
+    <isInactive>F</isInactive>
+    <roles>
+        <role internalid="1429"/> <!-- Replace with Role internal ID -->
+    </roles>
+</employee>
