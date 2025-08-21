@@ -1,0 +1,36 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>User Provisioning</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">WEBSERVICES</feature>
+      <feature required="false">SUBSIDIARIES</feature>
+    </features>
+    <objects>
+      <object>customrecord_nav_shortcut_tooltip</object>
+      <object>customrecord_nav_shortcutgroup</object>
+      <object>customrecord_dt_tile</object>
+      <object>customrecord_nav_category</object>
+      <object>customrecord_nav_shortcut</object>
+    </objects>
+    <applications>
+      <application id="com.netsuite.item360">
+        <objects>
+          <object>customrecord_item360_criteria_config</object>
+          <object>customrecord_item360_criteria_grid</object>
+          <object>customrecord_item360_user_access</object>
+        </objects>
+      </application>
+      <application id="com.suitesuccess.procurementworkbooks">
+        <objects>
+          <object>customrecord_atlas_proworkbook_strings</object>
+        </objects>
+      </application>
+      <application id="com.suitesuccess.finworkbooks">
+        <objects>
+          <object>customrecord_atlas_finworkbook_strings</object>
+        </objects>
+      </application>
+    </applications>
+  </dependencies>
+</manifest>
